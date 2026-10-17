@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Projects | Alissa Werbach</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&amp;family=Manrope:wght@200..800&amp;display=swap"
+        rel="stylesheet">
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/components.css" rel="stylesheet">
+    <link href="./css/projects.css" rel="stylesheet">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a href="./index.html" class="nav__avatar" aria-label="Back to homepage">
+                <img src="./images/foto_mobile.png" alt="" width="44" height="44">
+            </a>
+            <a href="./index.html#about" class="nav__link about">About</a>
+            <a href="./projects.html" class="nav__link projects active" aria-current="page">Projects</a>
+            <a href="#contact" class="nav__link contact">Contact</a>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section aria-labelledby="projects-title" class="projects-page container">
+            <div class="projects-page__header">
+                <h1 class="projects-page__title" id="projects-title">
+                    Selected
+                    <span class="projects-page__title-span">Projects</span>
+                </h1>
+                <p class="projects-page__description">A selection of my UX/UI design and frontend projects.</p>
+                <div aria-label="Filter projects" class="projects-filter" role="group">
+                    <button aria-pressed="true" class="projects-filter__button active" data-filter="all"
+                        type="button">All</button>
+                    <button aria-pressed="false" class="projects-filter__button" data-filter="uxui"
+                        type="button">UX/UI</button>
+                    <button aria-pressed="false" class="projects-filter__button" data-filter="frontend"
+                        type="button">Frontend</button>
+                    <button aria-pressed="false" class="projects-filter__button" data-filter="webflow"
+                        type="button">Webflow</button>
+                </div>
+            </div>
+            <div class="projects-page__grid">
+                <a aria-label="View GoWeekend project" class="project-card project-card--purple" data-category="uxui"
+                    href="./projects/goweekend.html">
+                    <div aria-hidden="true" class="project-card__number">
+                        <span class="project-card__number-outline">0</span>
+                        <span class="project-card__number-filled">1</span>
+                    </div>
+                    <div class="project-card__image">
+                        <img alt="GoWeekend mobile app preview" decoding="async" loading="lazy"
+                            src="./images/goweekend/project.png">
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__top">
+                            <h2 class="project-card__title">GoWeekend</h2>
+                            <span aria-hidden="true" class="project-card__arrow">↗</span>
+                        </div>
+                        <p class="project-card__description">Travel planning mobile app</p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">UX/UI</span>
+                        </div>
+                    </div>
+                </a>
+                <a aria-label="View PlantMatch project" class="project-card project-card--turquoise"
+                    data-category="uxui" href="./projects/plantmatch.html">
+                    <div aria-hidden="true" class="project-card__number">
+                        <span class="project-card__number-outline">0</span>
+                        <span class="project-card__number-filled">2</span>
+                    </div>
+                    <div class="project-card__image">
+                        <img alt="PlantMatch mobile app preview" decoding="async" loading="lazy"
+                            src="./images/plantmatch/plantmatch-project.png">
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__top">
+                            <h2 class="project-card__title">PlantMatch</h2>
+                            <span aria-hidden="true" class="project-card__arrow">↗</span>
+                        </div>
+                        <p class="project-card__description">Plant Shopping App</p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">UX/UI</span>
+                        </div>
+                    </div>
+                </a>
+                <a aria-label="View ArtCourse project" class="project-card project-card--yellow" data-category="uxui"
+                    href="./projects/art-landing-page.html">
+                    <div aria-hidden="true" class="project-card__number">
+                        <span class="project-card__number-outline">0</span>
+                        <span class="project-card__number-filled">3</span>
+                    </div>
+                    <div class="project-card__image">
+                        <img alt="ArtCourse landing page" decoding="async" loading="lazy"
+                            src="./images/art-landing/art_project.png">
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__top">
+                            <h2 class="project-card__title">ArtCourse</h2>
+                            <span aria-hidden="true" class="project-card__arrow">↗</span>
+                        </div>
+                        <p class="project-card__description">Online art course landing page</p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">UX/UI</span>
+                        </div>
+                    </div>
+                </a>
+                <a aria-label="View Buildwise project" class="project-card project-card--turquoise"
+                    data-category="frontend" href="./projects/buildwise.html">
+                    <div aria-hidden="true" class="project-card__number">
+                        <span class="project-card__number-outline">0</span>
+                        <span class="project-card__number-filled">4</span>
+                    </div>
+                    <div class="project-card__image">
+                        <img alt="Buildwise preview" decoding="async" loading="lazy"
+                            src="./images/buildwise/buildwise_mockup.png">
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__top">
+                            <h2 class="project-card__title">Buildwise</h2>
+                            <span aria-hidden="true" class="project-card__arrow">↗</span>
+                        </div>
+                        <p class="project-card__description">Responsive frontend website</p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">Frontend</span>
+                        </div>
+                    </div>
+                </a>
+                <a aria-label="View Homie project" class="project-card project-card--purple" data-category="webflow"
+                    href="./projects/homie.html">
+                    <div aria-hidden="true" class="project-card__number">
+                        <span class="project-card__number-outline">0</span>
+                        <span class="project-card__number-filled">5</span>
+                    </div>
+                    <div class="project-card__image">
+                        <img alt="Homie preview" decoding="async" loading="lazy"
+                            src="./images/homie/mockup_phone_homie.png">
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__top">
+                            <h2 class="project-card__title">Homie</h2>
+                            <span aria-hidden="true" class="project-card__arrow">↗</span>
+                        </div>
+                        <p class="project-card__description">Responsive Webflow website with CMS</p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">Webflow</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="contact">
+        <div class="footer__content container">
+            <img class="footer__title" src="./images/contact.svg" alt="" aria-hidden="true">
+            <div class="footer__intro">
+                <h2 class="footer__heading">Let's connect.</h2>
+                <p class="footer__description">Have a project in mind or want to work together?</p>
+            </div>
+            <div class="footer__links">
+                <a href="mailto:alissa.werbach@gmx.de" class="footer__link">
+                    <svg class="footer__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        aria-hidden="true">
+                        <rect x="3" y="5" width="18" height="14" rx="1" />
+                        <path d="m3 6 9 7 9-7" />
+                    </svg>
+                    <span>alissa.werbach@gmx.de</span>
+                </a>
+                <a href="https://www.linkedin.com/in/alissa-werbach/" class="footer__link" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg class="footer__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path
+                            d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.45 7.9a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.3 10.85H15.8V14.1c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.51V9.2h2.83v1.3h.04c.39-.74 1.36-1.53 2.79-1.53 2.98 0 3.58 1.96 3.58 4.51v5.27Z" />
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 Alissa Werbach</p>
+                <p>♡ Designed &amp; developed by me</p>
+            </div>
+        </div>
+    </footer>
+    <script defer="" src="./js/main.js"></script>
+</body>
+
+</html>
